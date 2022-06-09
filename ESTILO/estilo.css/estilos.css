@@ -43,7 +43,7 @@
   box-sizing: border-box;
 }
 
-.carrousel img{
-  width: auto;
+.carousel-item img{
+  object-fit: contain;
   height: 500px;
 }
