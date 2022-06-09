@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="ESTILO/estilo.css/estilos.css">
+    <title>Hola mundo</title>
+</head>
+<body>
+    <h1>Nuevo proyecto</h1>
+    <p class="animacion1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est sunt quaerat optio saepe magnam incidunt, aperiam dicta quam error voluptatum accusamus iste veritatis perferendis a commodi molestias, iusto, itaque quisquam!</p>
+    <p class="animacion1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid fuga debitis eaque neque? Praesentium quisquam, provident atque dolor rem nostrum reiciendis architecto consectetur minus voluptatibus fugiat maiores, unde corrupti excepturi.</p>
+    <section>
+        <h3 class="consulta">
+            Dejanos tu consulta
+        </h3>
+    <form id="formConsulta">
+        <div>
+            <label for="name">Nombre:</label>
+            <input type="text" required type="text" placeholder="Nombre completo" id="name">
+        </div>
+        <div>
+            <label for="contact">
+            Contacto:
+            </label>
+            <input type="text" id="contact" placeholder="351 0000000"></imput>
+        </div>
+        <div>
+            <label for="mail">Mail:</label>
+            <input type="text" required type="email" placeholder="ejemplo@mail.com" @id="mail">
+        </div>
+        <div>
+            <label for="age">Edad</label>
+            <input type="number" min="20" max="100" id="age">
+        </div>
+        <div>
+            <label for="date">Fecha de nacimiento</label>
+            <input type="date" id="date" name="fechaNacimiento" value="2022-05-04" min="2000-01-01" max="2022-05-31">
+        </div>
+        <div>
+            <label for="role">¿Cuál es su profesión?</label>
+            <select name="profesion" id="role">
+                <option value="fisiatra">Fisiatra</option>
+                <option value="neurokine">Neurokinesiologo</option>
+                <option value="kineRespi">Kine Respiratorio</option>
+                <option value="fonoaudiologa">Fonoaudiologa</option>
+                <option value="psicologa">Psicologa</option>
+                <option value="neuropsicologa">Neuro psicologa</option>
+                <option value="neurologa">Neurologa</option>
+                <option value="terapiaOcupacional">terapia ocupacional</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Deje su mensaje:</label>
+            <textarea id="message" placeholder="Ingrese su mensaje"></textarea>
+        </div>
+        <div>
+            <button>
+            Enviar
+            </button>
+        </div>
+    </form>
+    </section>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #7bc1d6;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MENU</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fotos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Visas W&H
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Alemania</a></li>
+                  <li><a class="dropdown-item" href="#">Francia</a></li>
+                  <li><a class="dropdown-item" href="#">Australia</a></li>
+                  <li><a class="dropdown-item" href="#">Holanda</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Dudas frecuentes</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">OFF</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-black" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/invierno y sol.jpg" class="d-block" alt="invierno">
+          </div>
+          <div class="carousel-item">
+            <img src="img/seria.jpg" class="d-block" alt="seria">
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block" alt="eso">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <main class="conteiner-flex">
+        <div class="row">
+            <div class="col-6 info">
+                <h3>Titulo nuevo</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur enim doloribus accusamus numquam ex aut at quos! Eos inventore quas labore numquam voluptatem dolore fugit cum ab, omnis ea a.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro fugit accusamus aliquam excepturi aspernatur magnam tenetur iusto corporis qui. Porro soluta magni provident, esse quia asperiores nam enim consectetur.
+            </div>
+            <div class="col info">
+                <h3>Titulo nuevo 2</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium porro fugit accusamus aliquam excepturi aspernatur magnam tenetur iusto corporis qui. Porro soluta magni provident, esse quia asperiores nam enim consectetur.
+            </div>
+            <div class="col info">
+                <div class="row">
+                    <h3>Titulo nuevo 3</h3>
+                    aspernatur magnam tenetur iusto corporis qui. Porro soluta magni provident, esse quia asperiores nam enim consectetur.
+                </div>
+                <div class="row">
+                    <h3>Titulo nuevo 4</h3>
+                    aspernatur magnam tenetur iusto corporis qui. Porro soluta magni provident, esse quia asperiores nam enim consectetur.
+                </div>
+            </div>
+        </div>
+        <div class="posRelative">
+          POSICION RELATIVA
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, illum ipsa unde optio earum natus minima voluptates soluta obcaecati temporibus blanditiis exercitationem quas repellat mollitia reprehenderit explicabo, laudantium omnis doloremque!
+        </div>
+        <div class="posAbs">
+          POSITION ABSOLUTA
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, possimus iste. Molestiae aperiam accusantium, dolores consequatur dolorem eligendi neque libero autem blanditiis veritatis rem nihil officiis placeat consequuntur voluptatum odit.
+        </div>
+        <div>
+          <button class="posFixed">Boton Fixed</button>
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

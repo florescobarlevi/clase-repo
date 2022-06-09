@@ -1,0 +1,16 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specificied\" && exit 1",
+    "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map ESTILO/sass:ESTILO/estilo.css",
+    "sass-compile-dev": "sass -c --style=expanded --no-source-map ESTILO/sass:ESTILO/estilo.css",
+    "sass-compile-prod": "sass -c --style=compressed ESTILO/sass:ESTILO/estilo.css"
+  }, 
+ "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
