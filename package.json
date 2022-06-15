@@ -8,9 +8,11 @@
     "sass-watch-dev": "sass --watch -c --style=expanded --no-source-map ESTILO/sass:ESTILO/estilo.css",
     "sass-compile-dev": "sass -c --style=expanded --no-source-map ESTILO/sass:ESTILO/estilo.css",
     "sass-compile-prod": "sass -c --style=compressed ESTILO/sass:ESTILO/estilo.css"
-  }, 
- "keywords": [],
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
-
